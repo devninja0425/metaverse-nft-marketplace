@@ -21,7 +21,6 @@
     "eslint-config-next": "13.4.2",
     "ethereum-waffle": "^4.0.10",
     "ethers": "^5.7.2",
-    "hardhat": "^2.14.0",
     "ipfs-http-client": "^60.0.0",
     "next": "13.4.2",
     "react": "18.2.0",
@@ -30,7 +29,9 @@
     "web3modal": "^1.9.12"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "autoprefixer": "^10.4.14",
+    "hardhat": "^2.14.0",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
   }
