@@ -8,13 +8,13 @@ module.exports = {
       chainId: 1337,
     },
     //  unused configuration commented out for now
-    // mumbai: {
-    //   url: "https://rpc-mumbai.maticvigil.com",
-    //   accounts: [0x2546bcd3c84621e976d8185a91a922ae77ecec30],
-    // },
+    mumbai: {
+      url: "https://rpc-mumbai.maticvigil.com",
+      accounts: [2a871d0798f97d79848a013d4936a73bf4cc922c825d33c1cf7073dff6d409c6],
+    },
   },
   solidity: {
-    version: "0.8.4",
+    version: "0.8.9",
     settings: {
       optimizer: {
         enabled: true,
